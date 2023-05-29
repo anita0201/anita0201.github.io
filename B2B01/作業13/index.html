@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>作業13</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    <link type="text/css" rel="stylesheet" href="css/skitter.styles.css"/>
+    <style>
+        .box_skitter_large {
+            width: 1000px;
+            height: 800px;
+        }
+
+        body {
+            background-color: #000000;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //$('.box_skitter_large').skitter();
+            $('.box_skitter_large').skitter({hideTools: true});
+            //$('.box_skitter_large').skitter({thumbs: true, label: true});
+            //$('.box_skitter_large').skitter({navigation: true, dots: false});
+        });
+    </script>
+
+</head>
+<body>
+<div class="border_box">
+    <div class="box_skitter box_skitter_large">
+        <ul>
+            <li>
+                <img src="images/01.png" class="cubeShow">
+                <div class="label_text">
+                    <p> 一起靠在南瓜上拍張照吧!!! Halloween~</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/02.png" class="glassCube">
+                <div class="label_text">
+                    <p>紀念一下採番茄的瞬間~</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/03.png" class="cubeJelly">
+                <div class="label_text">
+                    <p>YA!就喜歡跟外婆黏一起</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/04.png" class="directionRight">
+                <div class="label_text">
+                    <p>太熱!太熱! 需要降溫一下</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/05.png" class="paralell">
+                <div class="label_text">
+                    <p>要坐船出去玩囉! 開心開心~</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/06.png" class="upBars">
+                <div class="label_text">
+                    <p>就算冬天也要去溪邊玩水>_< </p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/07.png" class="circles">
+                <div class="label_text">
+                    <p>大樹上盪鞦韆就是好玩</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/08.jpg" class="fade">
+                <div class="label_text">
+                    <p>來拍一張照吧!給高中生活留個紀念</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/09.jpg" class="circlesInside">
+                <div class="label_text">
+                    <p>你拍我! 我拍你!</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/10.jpg" class="glassBlock">
+                <div class="label_text">
+                    <p>山中的無人商店真高級!</p>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>
+</body>
+</html>
